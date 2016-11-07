@@ -305,7 +305,7 @@ spearate the weekday from the weekend timeseries.
     g + geom_line() + facet_grid (day~.) + theme(axis.text = element_text(size = 12), 
           axis.title = element_text(size = 14)) + labs(y = "Number of Steps") + labs(x = "Interval")
           
-![plot of chunk unnamed-chunk-24-1](figure/unnamed-chunk-24-1.png)
+![plot of chunk unnamed-chunk-24-1](/unnamed-chunk-24-1.png)
 
 As expected, the activity profiles between weekdays and weekends greatly
 differ. During the weekdays, activity peaks in the morning between 7 and
