@@ -1,13 +1,8 @@
 ---
 title: "Activity processing device_assessment 1"
 date: "7 November 2016"
-output: word_document
-------
-title: "Activity processing device_assessment 1"
-output: html_document
-date: "7 November 2016"
----
-```{r setup, include=FALSE}
+
+```{r setup,}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
