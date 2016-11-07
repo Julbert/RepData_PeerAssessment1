@@ -102,8 +102,8 @@ Now we can construct the histogram of the total steps:
     g <- ggplot(AvgDay, aes(x=total.steps))
     g + geom_histogram(binwidth = 2500) + theme(axis.text = element_text(size = 12),  
           axis.title = element_text(size = 14)) + labs(y = "Frequency") + labs(x = "Total steps/day")
-
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+          
+![plot of chunk unnamed-chunk-6-1](/unnamed-chunk-6-1.png)
 
 The histogram shows the largest count around the 10000-12500 step class
 thus we can infer that the median will be in this interval, the data is
@@ -142,7 +142,7 @@ each interval goup:
           axis.title = element_text(size = 14, face = "bold")) + 
           labs(y = "Mean number of steps") + labs(x = "Interval")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-9-1.png)
+![plot of chunk unnamed-chunk-9-1](/unnamed-chunk-9-1.png)
 
 We can observe the largest amount of steps occurs between time intervals
 500 and 1000. The maximum average number of steps is: 206 and occurs in
@@ -227,7 +227,7 @@ And we can construct the histogram:
     g + geom_histogram(binwidth = 2500) + theme(axis.text = element_text(size = 12),
           axis.title = element_text(size = 14)) + labs(y = "Frequency") + labs(x = "Total steps/day")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-16-1.png)
+![plot of chunk unnamed-chunk-16-1](/unnamed-chunk-16-1.png)
 
 This figure shows, similarly to the first histogram, symmetrically
 distributed data around the maximum without the column in the extreme
